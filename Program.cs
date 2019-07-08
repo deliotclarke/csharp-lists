@@ -38,7 +38,7 @@ namespace lists
       planetList.ForEach(planet => Console.WriteLine(planet));
 
       //interestingly, planet list still contains all planets despite using get range to remove all the rocky planets
-
+      Console.WriteLine("End of planets exercise");
 
     }
   }
