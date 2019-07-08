@@ -86,6 +86,20 @@ namespace lists
         }
       }
 
+      Console.WriteLine();
+      Console.WriteLine("Random number exercise for fun");
+
+      for (int i = 0; i < 5; i++)
+      {
+        Random rand = new Random();
+        byte[] bytes = new byte[5];
+        rand.NextBytes(bytes);
+        foreach (byte byteValue in bytes)
+        {
+          Console.WriteLine(byteValue);
+        }
+      }
+
     }
   }
 }
